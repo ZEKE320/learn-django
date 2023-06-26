@@ -34,5 +34,9 @@
     "files.exclude": {
       "**/.git": false
     },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.tabSize": 4,
+    },
   }
 }
