@@ -130,8 +130,14 @@ LOGGING = {
     "disable_existing_loggers": False,
     # Logger settings
     "loggers": {
-        "django": {"handlers": ["console"], "level": "INFO"},
-        "mockup": {"handlers": ["console"], "level": "DEBUG"},
+        "django": {
+            "handlers": ["console"],
+            "level": "INFO",
+        },
+        "mockup": {
+            "handlers": ["console"],
+            "level": "DEBUG",
+        },
     },
     # Handler settings
     "handlers": {
@@ -145,7 +151,12 @@ LOGGING = {
     "formatters": {
         "dev": {
             "format": "\t".join(
-                ["%(asctime)s", "[%(levelname)s]", "%(pathname)s(Line:%(lineno)d)", "%(message)s"]
+                [
+                    "%(asctime)s",
+                    "[%(levelname)s]",
+                    "%(pathname)s(Line:%(lineno)d)",
+                    "%(message)s",
+                ]
             )
         }
     },
