@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "alefragnani.project-manager",
+    "christian-kohler.path-intellisense",
+    "cschlosser.doxdocgen",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.git-extension-pack",
+    "donjayamanne.python-extension-pack",
+    "formulahendry.auto-complete-tag",
+    "github.remotehub",
+    "github.vscode-pull-request-github",
+    "gruntfuggly.todo-tree",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-toolsai.jupyter",
+    "ms-vsliveshare.vsliveshare-pack",
+    "oderwat.indent-rainbow",
+    "redhat.fabric8-analytics",
+    "seatonjiang.gitmoji-vscode",
+    "sonarsource.sonarlint-vscode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+    "xabikos.javascriptsnippets",
+  ]
+}
