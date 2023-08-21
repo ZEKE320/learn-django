@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import generics
 
-# Create your views here.
+from .models import Attendance
+from .serializers import AttendanceSerializer
+
+
+class AttendanceListAPIView(generics.ListAPIView):
+    queryset = Attendance.objects.all()
+    serializer_class = AttendanceSerializer
