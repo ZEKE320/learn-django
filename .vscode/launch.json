@@ -14,6 +14,27 @@
       ],
       "django": true,
       "justMyCode": true
-    }
+    },
+    {
+      "name": "Startup Django API Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\react_app\\my_project\\manage.py",
+      "args": [
+        "runserver"
+      ],
+      "django": true,
+      "justMyCode": true
+    },
+    {
+      "name": "Startup React Server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "start"
+      ],
+      "cwd": "${workspaceFolder}\\react_app\\react\\attendance",
+    },
   ]
 }
