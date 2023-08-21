@@ -1,0 +1,23 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-config-standard": "*",
+    "eslint-config-standard-with-typescript": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-n": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "typescript": "*"
+  }
+}
