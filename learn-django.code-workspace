@@ -22,21 +22,29 @@
     "editor.suggestSelection": "first",
     "editor.tabSize": 2,
     "editor.unicodeHighlight.nonBasicASCII": false,
+    "eslint.workingDirectories": [
+      "./react_app/react/attendance",
+      "./react_app/next/attendance"
+    ],
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
     "html.format.templating": true,
     "html.format.wrapLineLength": 0,
     "notebook.lineNumbers": "on",
     "notebook.output.scrolling": true,
-    "editor.rulers": [
-      100
-    ],
+    "editor.rulers": [100],
     "files.exclude": {
       "**/.git": false
     },
     "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.tabSize": 4,
+      "editor.tabSize": 4
     },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   }
 }
